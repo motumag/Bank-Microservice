@@ -52,7 +52,7 @@ public class Customer {
 	@Column(name = "create_date", nullable = false, updatable = false)
 	@Temporal(TemporalType.TIMESTAMP)
 	private LocalDateTime createDate;
-	
+	//Date To be modiefied, you can make nullable true
 	@Column(name = "modify_date", updatable = true)
 	@Temporal(TemporalType.TIMESTAMP)
 	private LocalDateTime modifyDate;
